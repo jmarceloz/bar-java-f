@@ -15,5 +15,15 @@ public class new15 {
 		char orientacao;
 		
 
+		System.out.print("orientacao: ");
+		orientacao = sc.next().charAt(0);
+		System.out.print("Quantidade de cervas: ");
+		cervas = sc.nextInt();
+		System.out.print("Quantidade de refrigerantes: ");
+		refri = sc.nextInt();
+		System.out.print("Quantidade de espetinhos: ");
+		espetos = sc.nextInt();
+		
+		
 	}
 }
